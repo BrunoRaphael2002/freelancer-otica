@@ -21,7 +21,7 @@ html{
 
 body {
     color: var(--text-color);
-   
+   background-color: #d7d7dd;
     font-family: var(--font-primary);
     
 }
@@ -156,35 +156,39 @@ nav ul {
 
 /*Sessao Serviços*/
 
-.Servicos{
+
+.Servicos {
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    flex-direction: column;
+    justify-content: space-around;
+    
     gap: 100px;
     padding: 100px 20px;
-    
-
-    
 }
 
-.container-servicos{
+.container-servicos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-  padding: 30px;
-    height: 100%;
-    
-  
-   
-    
+    padding: 20px; /* Ajuste o padding para 20px */
+    border-radius: 15px;
+    border: 1px dotted black;
+    width: 30%; /* Adicionei um valor de largura fixo em percentagem */
+
+    /* Adicione as seguintes propriedades para garantir que a largura seja a mesma para todos os cards */
+    flex: 1;
+    min-width: 0;
+    align-self: stretch;
 }
 
-.container-servicos img{
-    width: 100px;
+.container-servicos img {
+    width: 50%; /* Ajuste a largura da imagem para ocupar 100% do container */
+     /* Ajuste a altura da imagem para ocupar 100% do container */
+    object-fit: cover; /* Garante que a imagem cubra completamente o espaço do container */
 }
+
 
 
 /*Sessao promoções*/
@@ -249,7 +253,7 @@ summary {
 
 }
 .loc img{
-    width: 50%;
+    width: 80%;
 }
 
 /* sessao footer*/
