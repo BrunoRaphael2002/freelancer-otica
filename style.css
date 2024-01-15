@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&family=Merriweather+Sans:wght@600&display=swap');
 /* :root para organizar cores e fontes */
 :root {
-    --primary-color: #202544;
+    --primary-color: #1C88D9;
     --secondary-color: #6DDAF2;
     --text-color: #ffffff;
     --font-primary: 'Martel Sans', sans-serif;
@@ -49,10 +49,10 @@ nav ul {
 
 .banner {
     background-color: var(--secondary-color);
-    background-image: url("assets/banner-blue.jpg");
+    background-image: url("assets/variant02.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom, center;
+    background-position: top, center;
     height: 90vh;
     color: black;
     text-transform: uppercase;
@@ -91,23 +91,7 @@ nav ul {
 }
 
 
-.news{
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-   
-    color: black;
-    margin: 0 auto;
-    padding: 20px;
-    width: 100%;
-    height: 100vh;
-    text-transform: uppercase;
-}
-.news img{
-    width: 300px;
-   padding: 5px;
-    
-}
+
 
 .btn{
     background-color:  #202544;
@@ -196,4 +180,18 @@ nav ul {
 
 .container-servicos img{
     width: 100px;
+}
+
+
+/*Sessao promoções*/
+
+.promocoes{
+    display: flex;
+    padding: 100px 20px;
+    gap: 10px;
+}
+
+.promocoes img{
+    width:50%;
+    border-radius: 15px;
 }
