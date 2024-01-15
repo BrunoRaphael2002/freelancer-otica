@@ -6,6 +6,11 @@ a{
     text-decoration: none;
 }
 
+nav ul li a{
+    cursor: pointer;
+    color: white;
+}
+
 /*reset*/
 /*
 <a href="https://br.freepik.com/fotos-gratis/retrato-de-uma-estudante-loira-atraente-usando-oculos-e-sorrindo-determinado-parecendo-elegante-em-pe-sobre-uma-parede-branca_19294735.htm#query=pessoas%20de%20oculos&position=1&from_view=keyword&track=ais&uuid=a4dac77c-ad5a-48fb-952f-fb380a302905">Imagem de cookie_studio</a> no Freepik

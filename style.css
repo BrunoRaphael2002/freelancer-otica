@@ -2,11 +2,15 @@
 /* :root para organizar cores e fontes */
 :root {
     --primary-color: #1C88D9;
-    --secondary-color: #6DDAF2;
+    --secondary-color: #0C4694;
     --text-color: #ffffff;
     --font-primary: 'Martel Sans', sans-serif;
     --font-secondary: 'Merriweather Sans', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+  }
 
 /* Restante do CSS */
 * {
@@ -25,7 +29,7 @@ body {
 header {
     width: 100%;
     margin: 0 auto;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 nav {
@@ -94,7 +98,7 @@ nav ul {
 
 
 .btn{
-    background-color:  #202544;
+    background-color:  var(--secondary-color);
     font-size: 20px;
     color: white;
     padding: 10px 20px;
@@ -189,9 +193,70 @@ nav ul {
     display: flex;
     padding: 100px 20px;
     gap: 10px;
+   
 }
 
 .promocoes img{
     width:50%;
     border-radius: 15px;
+}
+
+/*Sessao Faq*/
+
+
+
+.faq-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+details {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    color: var(--secondary-color);
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: var(--secondary-color);
+}
+
+.faq-answer {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* sessao localizaçõa*/
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 20px;
+    height: 100%;
+    text-align: center;
+    color: var(--secondary-color);
+    
+
+
+}
+.loc img{
+    width: 50%;
+}
+
+/* sessao footer*/
+
+footer{
+    color: var(--secondary-color);
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
 }
