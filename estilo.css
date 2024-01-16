@@ -70,7 +70,7 @@ nav ul {
 
 .banner {
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    background-image: url('../assets/variant02.png');
+    background-image: url('assets/variant02.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--text-color);
@@ -433,7 +433,7 @@ summary {
     }
 
     .banner .cta{
-        background-color: #333333;
+        
         justify-content: center;
         align-items: center;
         padding: 20px;
