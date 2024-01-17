@@ -466,7 +466,7 @@ summary {
     }
 
     .banner{
-        background-position:79% center, bottom ;
+        background-position:75% center, bottom ;
         background-color: rgba(0,0,0,.6);
     }
 
@@ -481,7 +481,7 @@ summary {
     .banner .text-content{
         
         
-        background-color: #0c4794e1;
+        background-color: #0c4794ab;
         text-align: center;
        width: 100%;
        padding: 25px;
@@ -530,10 +530,7 @@ summary {
     }
 
    
-    .banner{
-        background-position:78% center, bottom ;
-        background-color: rgba(0,0,0,.6);
-    }
+   
 }
 
 
