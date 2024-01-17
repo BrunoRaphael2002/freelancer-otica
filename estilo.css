@@ -27,6 +27,7 @@ body {
     color: var(--text-color);
     background-color: #f9f9f9; /* Uma tonalidade mais clara */
     font-family: var(--font-primary);
+    
 }
 
 .limitar-sessao{
@@ -44,9 +45,32 @@ body {
 
 header {
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
+
+.off-hidden{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  height: 22px;
+    background-color: rgb(239, 72, 72);
+   
+}
+.off {
+    position: absolute;
+    white-space: nowrap;
+    color: #ecf0f1;
+    animation: moveText 10s linear infinite;
+}
+
+@keyframes moveText {
+    0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+}
+
+
 
 nav {
     display: flex;
@@ -54,12 +78,12 @@ nav {
     justify-content: space-between;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 20px;
+   
 }
 
 nav .logo {
-    height: 70px;
-    object-fit: contain;
+   width: 125px;
+    object-fit: cover;
 }
 
 nav ul {
@@ -165,7 +189,11 @@ nav ul {
 .Sobre .texto {
    
     padding: 100px 40px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
     text-align: center;
+    
     
 }
 
@@ -174,6 +202,11 @@ nav ul {
     text-transform: uppercase;
     font-weight: 600;
     padding: 10px;
+}
+
+.Sobre .texto p{
+    text-align: center;
+    width: 100%;
 }
 
 .btn-servico{
@@ -202,10 +235,12 @@ nav ul {
 .box-itens {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 50px;
+    padding: 20px;
+    gap: 30px;
+    
+   
     
 }
 
@@ -214,27 +249,26 @@ nav ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
-    margin: 0 auto;
+ 
+    
     gap: 10px;
     padding: 20px; /* Ajuste o padding para 20px */
     border-radius: 15px;
-    width: 40%; /* Adicionei um valor de largura fixo em percentagem */
+    width: 30%; /* Adicionei um valor de largura fixo em percentagem */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #fffff4;
     /* Adicione as seguintes propriedades para garantir que a largura seja a mesma para todos os cards */
-    flex: 1;
-    min-width: 0;
    
+  
     align-self: stretch;
     font-family: var(--font-secondary);
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .container-servicos img {
     width: 50%; /* Ajuste a largura da imagem para ocupar 100% do container */
     /* Ajuste a altura da imagem para ocupar 100% do container */
-    object-fit: cover; /* Garante que a imagem cubra completamente o espaço do container */
+    object-fit: contain; /* Garante que a imagem cubra completamente o espaço do container */
 }
 
 /*Sessao promoções*/
