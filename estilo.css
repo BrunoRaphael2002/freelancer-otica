@@ -290,14 +290,14 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+    padding: 100px 20px;
     gap: 10px;
 }
 
 .img-promo {
     display: flex;
     flex-direction: row;
-    
+    padding-top: 20px;
     gap: 10px;
 }
 
@@ -385,6 +385,10 @@ summary {
  .loc .red{
 
     color: rgb(239, 72, 72);
+ }
+
+ span{
+    color: #1C88D9;
  }
 
 /* Sessao footer */
@@ -477,7 +481,7 @@ summary {
 
     .banner{
         background-position:75% center, bottom ;
-        background-color: rgba(0,0,0,.6);
+        background-color: #1C88D9;
     }
 
     .banner .cta{
