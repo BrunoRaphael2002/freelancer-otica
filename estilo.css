@@ -430,7 +430,7 @@ summary {
 
     header nav {
         flex-direction: column;
-        padding: 10px 20px;
+        padding: 30px 20px;
         margin: 0 auto;
         gap: 20px;
         font-size: 20px;
