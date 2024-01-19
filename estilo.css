@@ -290,14 +290,13 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 100px 20px;
-    gap: 10px;
+    padding-top: 100px;
+    gap: 20px;
 }
 
 .img-promo {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
     gap: 10px;
 }
 
