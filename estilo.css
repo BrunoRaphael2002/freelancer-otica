@@ -290,14 +290,14 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 100px 20px;
+   
     gap: 10px;
 }
 
 .img-promo {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    
     gap: 10px;
 }
 
@@ -466,8 +466,9 @@ summary {
     }
 
     .img-promo  img{
-      margin: 0 auto;
+     
         width: 100%;
+        flex-direction: column;
     }
 
     .banner{
@@ -511,9 +512,7 @@ summary {
     }
    
     
-    .img-promo{
-        flex-direction: column;
-    }
+    
 }
 
 @media(max-width: 480px ){
