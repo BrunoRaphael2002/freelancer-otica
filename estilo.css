@@ -465,10 +465,14 @@ summary {
         flex-direction: column;
     }
 
+    .img-promo{
+        flex-direction: column;
+    }
+
     .img-promo  img{
      
         width: 100%;
-        flex-direction: column;
+        
     }
 
     .banner{
